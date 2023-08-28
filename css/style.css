@@ -11,6 +11,11 @@ body
     font-family: 'Montserrat', sans-serif; 
 }
 
+ul {
+    margin: 0;
+}
+
+
 main .title{
     text-align: center;
 }
