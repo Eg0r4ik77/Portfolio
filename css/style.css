@@ -15,27 +15,18 @@ main .title{
     text-align: center;
 }
 
+.beat-of-the-gnomes{
+    padding-left: 5px;
+}
+
+
 #trailer{
     box-sizing: border-box;
     border-radius: 20px;
     min-width: 400px;
     width: 60%;
     height: 100%;
-    /* margin: auto; */
     display: block;
-}
-
-#responsibilities{
-    .game-info-container{
-        height: fit-content;
-        border-radius: 10px;
-    
-        padding: 5px;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .game-info-container{
@@ -46,7 +37,6 @@ main .title{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 hr {
@@ -57,16 +47,16 @@ hr {
 .game{
     min-height: 150px;
     height: fit-content;
-    max-width: 700px;
+
+    max-width: 100%;
     
     border-radius: 2em;
 
-    justify-content: center;
+    justify-content: space-between;
 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
 }
 
 .game-info-text{
@@ -82,9 +72,10 @@ ul{
 
 .game video{
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 50%;
     height: 100%;
+    margin: auto;
 }
 
 @media (max-width: 500px) {
@@ -92,7 +83,11 @@ ul{
         width: 400px;
     }
     
-    .game-info-container video{
+    .game video{
         width: 400px;
+    }
+
+    #trailer{
+        margin: auto;
     }
   }
