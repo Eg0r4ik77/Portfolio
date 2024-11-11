@@ -1,13 +1,13 @@
 body
 {
-    background-color: #32325d;
+    background-color: white;
     max-width: 80ch;
     margin: auto;
 }
 
 *
 {
-    color: white;   
+    color: black;   
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -61,12 +61,11 @@ hr {
 
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .game-info-text{
     box-sizing: border-box;
-    padding: 10px;
     width: 50%;
     height: 100%;
 }
